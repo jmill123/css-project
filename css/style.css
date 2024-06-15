@@ -61,7 +61,7 @@ li {
     background-color: black;
     justify-content: space-around;
     align-items: center;
-    flex: auto;
+    flex: 1;
 }
 
 .first img {
@@ -104,7 +104,7 @@ li {
     background-color: #121212;
     color: white;
     font-family: 'italianplate' , 'arial narrow', arial, sans-serif;
-    flex: auto;
+    flex: 1;
     align-items: center;
     border-top: white solid 1px;
     border-bottom: white solid 1px;
@@ -152,6 +152,7 @@ li {
     line-height: 1.2;
     font-family: 'italianplate' , 'arial narrow', arial, sans-serif;
     padding: 24px;
+    flex: 1;
 }
 
 .quote {
@@ -164,7 +165,7 @@ li {
     justify-content: center;
     align-items: center;
     background-color: #f8f8ff;
-    flex: auto;
+    flex: 1;
     padding: 15px;
 }
 

@@ -1,0 +1,231 @@
+/* Global Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/* Font Faces */
+@font-face {
+    font-family: 'Lastica';
+    src: url('../ASPECT_files/Lastica.ttf');
+}
+
+@font-face {
+    font-family: 'italianplate';
+    src: url('../ASPECT_files/ItalianPlateNo2-Regular.woff2');
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border-bottom: 1px solid #ddd;
+}
+
+.spacer {
+    height: 50px;
+}
+
+.logo {
+    flex: 0 1 0;
+    margin: 0 0 0 25px;
+    max-width: 180px;
+    object-fit: contain;
+}
+
+ul {
+    display: flex;
+    flex: 0 1 0;
+    list-style: none;
+    margin: 0 12px 0 0;
+    padding: 0;
+    gap: 12px;
+}
+
+li {
+    color: white;
+    font-family: 'Lastica', 'italianplate', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* First Section */
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    background-color: black;
+    font-family: 'italianplate', 'Arial Narrow', Arial, sans-serif;
+}
+
+.first img {
+    flex: 2 1 0;
+    max-width: 600px;
+    min-width: 0;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    color: white;
+}
+
+.content1 .head1 {
+    font-size: 32px;
+}
+
+.content1 p {
+    font-size: 18px;
+    color: #8e8e8e;
+}
+
+.content1 button {
+    flex: 1;
+    width: 200px;
+    padding: 8px 12px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: 'Lastica', 'italianplate', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Second Section */
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    background-color: #121212;
+    color: white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-family: 'italianplate', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text2 {
+    flex: 1;
+    margin: 16px 0;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    height: auto;
+    flex: 3;
+    gap: 2%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-radius: 5px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card div img {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/* Third Section */
+.third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 24px;
+    background-color: #f8f8ff;
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: 'italianplate', 'Arial Narrow', Arial, sans-serif;
+}
+
+.quote {
+    width: 75%;
+}
+
+/* Fourth Section */
+.fourth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 15px;
+    background-color: #f8f8ff;
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 50%;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.cta button {
+    flex: 1;
+    max-width: 160px;
+    max-height: 100px;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: 'Lastica', 'italianplate', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.text4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'italianplate', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text4 p {
+    margin: 8px;
+}
+
+.bold4 {
+    font-size: 24px;
+}
+
+.sub4 {
+    font-size: 18px;
+    color: #c8c8c8;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}

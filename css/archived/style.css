@@ -1,0 +1,228 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Lastica;
+    src: url(../ASPECT_files/Lastica.ttf);
+}
+
+@font-face {
+    font-family: italianplate;
+    src: url(../ASPECT_files/ItalianPlateNo2-Regular.woff2);
+}
+
+.header {
+    height: 50px;
+    display: flex;
+    background-color: black;
+    border-bottom: 1px solid #ddd;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.spacer {
+    height: 50px;
+}
+
+.logo {
+    flex: 0 1 0;
+    margin-right: auto;
+    margin-left: 25px;
+    object-fit: contain;
+    /* width: 100px; */
+    max-width: 180px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0 12px 0 0;
+    padding: 0;
+    gap: 12px;
+    flex: 0 1 0;
+}
+
+li {
+    color: white;
+    font-family: 'Lastica', 'italianplate','arial narrow' , arial, sans-serif;
+    font-size: 16px;
+}
+
+
+.first {
+    display: flex;
+    font-family: 'italianplate' , 'arial narrow', arial, sans-serif;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+.first img {
+    max-width: 600px;
+    min-width: 0px;
+    flex: 2 1 0;
+}
+
+.content1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+}
+
+.content1 .head1 {
+    font-size: 32px;
+}
+
+.content1 p {
+    color: #8e8e8e;
+    font-size: 18px;
+}
+
+.content1 button {
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    flex: 1;
+    border: white solid 2px;
+    border-radius: 5px;
+    font-family: 'Lastica', 'italianplate', 'arial narrow' , arial, sans-serif;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #121212;
+    color: white;
+    font-family: 'italianplate' , 'arial narrow', arial, sans-serif;
+    flex: 1;
+    align-items: center;
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+}
+
+.text2 {
+    margin: 16px 0;
+    text-align: center;
+    flex: 1;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    height: auto;
+    flex: 3;
+    gap: 2%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card div img {
+    object-fit: cover;
+    width: 100%;
+    border: white solid 1px;
+    border-radius: 5px;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8ff;
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: 'italianplate' , 'arial narrow', arial, sans-serif;
+    padding: 24px;
+    flex: 1;
+}
+
+.quote {
+    /* margin: 18px; */
+    width: 75%;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8ff;
+    flex: 1;
+    padding: 15px;
+}
+
+.cta {
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.cta button {
+    flex: 1;
+    max-width: 160px;
+    max-height: 100px;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border: white solid 2px;
+    border-radius: 5px;
+    font-family: 'Lastica', 'italianplate', 'arial narrow', arial, sans-serif;
+    font-size: 18px;
+}
+
+.text4 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'italianplate', 'arial narrow', arial, sans-serif;
+    justify-content: center;
+    /* margin: 12px; */
+}
+
+.text4 p {
+    margin: 8px;
+}
+
+.bold4 {
+    font-size: 24px;
+}
+
+.sub4 {
+    font-size: 18px;
+    color: #c8c8c8;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial, sans-serif;
+    font-size: 10px;
+    padding: 4px;
+}
+
